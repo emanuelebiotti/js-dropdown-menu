@@ -62,11 +62,21 @@
 .right-side a:hover, .left-side a:hover {
   color:black;
 }
-.right-side a:last-child {
+.menu-item {
+  position: relative;
+}
+.right-side .menu-item.scaricaApp {
   background-color: #D2007E;
-  color:white;
   line-height: 45px;
   width:140px;
   text-align:center;
   border-radius: 20px;
+  color:white;
+}
+.right-side .menu-item.scaricaApp a {
+  color:white;
+}
+.dropdown-menu {
+  position:absolute;
+  width:150px;
 }
